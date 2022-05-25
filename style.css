@@ -10,15 +10,13 @@
 
 .header-section {
   margin: 35px 22px;
-  padding: 0px;
 }
 
 .header-section > div > .my-logo:hover {
   display: flex;
   text-align: center;
   align-items: center;
-  font-family: 'Poppings';
-  font-style: normal;
+  font-family : normal 700 40px 'Poppins', sans-serif;
   font-size: 18px;
   line-height: 20px;
   width: 76px;
@@ -57,7 +55,8 @@
   left: 408px;
   top: 55.79px;
   transform: rotate(-30deg);
-} 
+}
+
 .header-section > div > ul.c {
   position: absolute;
   width: 15px;
