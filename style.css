@@ -150,29 +150,3 @@
   margin-top: 45px;
   color: #172b4d;
 }
-
-.menu-section > div > .p-text {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  height: 120px;
-  margin-top: 5px;
-}
-
-.menu-section > div > .connect:hover {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-}
-
-.menu-section > div > .media-icons {
-  display: flex;
-  gap: 10px;
-  align-items: baseline;
-}
