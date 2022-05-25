@@ -2,7 +2,7 @@
 
 First mobile version portfolio project created with html templates and styling to built a responsive mobile version.
 
-Built With
+# Built With
 
 html css Git Github
 
@@ -10,7 +10,7 @@ Setup project to your local environment and clone it as follows git clone https:
 
 Install run git installation commands.
 
-Authors
+# Authors
 
 👤 tshepo makama
 
@@ -24,7 +24,7 @@ Show your support
 
 Give a ⭐️ if you like this project!
 
-Acknowledgments
+# Acknowledgments
 
 Hat tip to anyone whose code was used Inspiration etc1
 
