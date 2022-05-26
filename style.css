@@ -12,7 +12,7 @@
   margin: 35px 22px;
 }
 
-.header-section > div > .my-logo:hover {
+.header-section > nav > .my-logo:hover {
   display: flex;
   text-align: center;
   align-items: center;
@@ -22,7 +22,7 @@
   height: 20px;
 }
 
-.header-section > div > ul.u {
+.header-section > nav > ul.u {
   position: absolute;
   width: 18px;
   height: 12px;
