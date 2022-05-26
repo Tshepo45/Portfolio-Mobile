@@ -15,8 +15,8 @@
 .header-section > div > .my-logo:hover {
   display: flex;
   text-align: center;
-  align-items: center; 
-  font-size: 18px;  
+  align-items: center;
+  font-size: 18px;
   line-height: 20px;
   width: 76px;
   height: 20px;
@@ -36,17 +36,16 @@
   height: 4.73px;
   left: 227.18px;
   top: 81.59px;
-  transform: matrix(0.76,0.65,0.65,-0.1,0,0);
-}
-
-.header-section > div > ul.a {
+  }
+  
+  .header-section > div > ul.a {
   position: absolute;
   width: 105px;
   height: 105px;
   left: 463px;
   top: 72.24px;
 }
-   
+
 .header-section > div > ul.b {
   position: absolute;
   width: 95.58px;
@@ -169,7 +168,7 @@
   line-height: 24px;
   color: #7f8cff;
 }
-  
+
 .menu-section > div > .media-icons {
   display: flex;
   gap: 10px;
