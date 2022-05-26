@@ -1,4 +1,4 @@
-# Portfolio-Mobile
+# Portfolio Mobile Skeleton
 
 First mobile version portfolio project created with html templates and styling to built a responsive mobile version.
 
