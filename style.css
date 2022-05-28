@@ -175,8 +175,6 @@
   align-items: baseline;
 }
 
-
-
 #work-section {
   display: grid;
   flex-direction: column;
@@ -466,12 +464,6 @@
   color: #000;
 }
 
-
-
-.hero-sub-link {
-  font: normal normal 400 15px 'Poppins', sans-serif;
-}
-
 .about-content > div > .media-icons {
   display: flex;
   gap: 10px;
@@ -484,7 +476,6 @@
   align-items: baseline;
   flex-direction: column;
 }
-
 
 #frameworks {
   margin-top: 20px;
