@@ -322,7 +322,6 @@
   display: flex;
   width: 95px;
   height: 24px;
-  display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
@@ -572,7 +571,7 @@
   width: 40px;
   height: 89px;
   left: 458px;
-  top:16px;
+  top: 16px;
 }
 
 .form-container > h2 {
