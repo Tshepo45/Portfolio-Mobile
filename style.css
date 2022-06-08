@@ -216,7 +216,7 @@
 .Project-header > h4 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 40px;
   line-height: 44px;
   color: #172b4d;
@@ -289,16 +289,15 @@
 }
 
 .Project1-languages  {
-  float: left;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 10px;
   list-style: none;
-  float: initial;
 }
 
 .Project1-languages > .lang1 {
-  float: left;
+  display: flex;
   width: 53px;
   height: 24px;
   display: flex;
@@ -309,10 +308,20 @@
   background: #ebebff;
 }
 
-
+.Project1-languages > .lang2 {
+  display: flex;
+  width: 53px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: #6070ff;
+  background: #ebebff;
+}
 
 .Project1-languages > .lang3 {
-  float: right;
+  display: flex;
   width: 95px;
   height: 24px;
   display: flex;
@@ -321,7 +330,6 @@
   border-radius: 8px;
   color: #6070ff;
   background: #ebebff;
-  margin: 5px;
 }
 
 .btn {
@@ -568,21 +576,15 @@
   left: 458px;
   top:16px;
 }
-#form h2, #form p{
-    margin: 1em;
-}
-#form form{
-  margin: 1em;
-}
 
-.form-container  > h2 {
+.form-container > h2 {
   top: 74px;
-  font-family: 'Poppins';
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 202px;
+  font-family: Poppins, sans-serif;
   line-height: 52px;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   align-items: center;
   text-align: center;
@@ -598,7 +600,7 @@
   height: 62px;
   left: 24px;
   top: 129px;
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -612,6 +614,7 @@ form {
   flex-direction: column;
   justify-content: center;
   margin-top: 30px;
+  margin: 1em;
 }
 
 input,
