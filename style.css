@@ -554,7 +554,7 @@
   align-items: center;
 }
 
- .t {
+.t {
   position: absolute;
   width: 21px;
   height: 21px;
@@ -596,7 +596,6 @@
   width: 801px;
   height: 56px;
   left: 113px;
-
 }
 
 .form-container > p {
@@ -611,7 +610,6 @@
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
-
 }
 
 form {
@@ -642,28 +640,25 @@ textarea {
   margin-left: 100px;
 }
 
+.btn2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  top: 530px;
+  border-radius: 8px;
+  width: 140px;
+}
 
-
-
-
-.form-container button:hover {
+.btn2:hover {
   background-color: #6070ff;
   color: white;
   border: 1px solid white;
 }
 
-.form-container button:focus {
+.btn2:active {
   background-color: #2230d2;
   color: white;
-}
-
-/* Form Error message to be displayed in case of email invalid input */
-.error-message {
-  color: red;
-  font-size: 19px;
-  font-weight: 600;
-  align-self: center;
-  z-index: 1;
 }
 
 .underline-bar-bottom {
@@ -675,4 +670,3 @@ textarea {
   margin-left: 100px;
   margin-bottom: -18px;
 }
-
