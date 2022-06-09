@@ -7,8 +7,7 @@ First mobile version portfolio project created with html templates and styling t
 Built With
 html css Git Github
 
-Getting Started
-Setup project to your local environment and clone it as follows git clone https://github.com/Tshepo45/Portfolio-Mobile.git
+Setup project to your local environment and clone it as follows git clone https://github.com/Tshepo45/Portfolio-Mobile.git and adding a contact form.
 
 Install 
 run git installation commands. 
