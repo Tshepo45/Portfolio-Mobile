@@ -574,6 +574,26 @@
   top: 16px;
 }
 
+.x {
+  position: absolute;
+  width: 76.17px;
+  height: 13.63px;
+  left: 258px;
+  top: 554px;
+  transform: matrix(0.8,0.6,0.6,-0.8,0,0);
+}
+
+.w {
+  position: absolute;
+  width: 31.11px;
+  height: 31.11px;
+  left: 268px;
+  top: 561px;
+  transform: rotate(48.94deg);
+  background: #fff;
+}
+
+
 .form-container > h2 {
   top: 74px;
   font-weight: 700px;
