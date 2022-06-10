@@ -354,6 +354,7 @@
   background: #6070ff;
   box-shadow: 0 8px 16px #172b4d;
   color: #fff;
+  transition: background-color 2s ease-out;
 }
 
 .btn:active {
