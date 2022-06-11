@@ -9,6 +9,14 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+
 #header {
   padding: 15px;
   background-color: white;
@@ -183,11 +191,12 @@ div > ul.f {
 
 .container1 > figure > img {
   width: 100%;
-  margin-bottom: 140px;
+  margin-bottom: 10px;
 }
 
 .container1 > figure {
   margin: 0 16px;
+  width: 333px;
 }
 
 .container2 {
@@ -208,11 +217,12 @@ div > ul.f {
 
 .container2 > figure > img {
   width: 100%;
-  margin-bottom: 140px;
+  margin-bottom: 10px;
 }
 
 .container2 > figure {
   margin: 0 16px;
+  width: 333px;
 }
 
 .container3 {
@@ -233,11 +243,12 @@ div > ul.f {
 
 .container3 > figure > img {
   width: 100%;
-  margin-bottom: 140px;
+  margin-bottom: 10px;
 }
 
 .container3 > figure {
   margin: 0 16px;
+  width: 333px;
 }
 
 .container4 {
@@ -258,11 +269,12 @@ div > ul.f {
 
 .container4 > figure > img {
   width: 100%;
-  margin-bottom: 140px;
+  margin-bottom: 10px;
 }
 
 .container4 > figure {
   margin: 0 16px;
+  width: 333px;
 }
 
 .Project-header {
@@ -393,13 +405,16 @@ div > ul.f {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
+  width: 80%;
+  margin: 70px auto 70px auto;
+  padding: 0;
 }
 
 .about-content {
   display: flex;
-  flex-direction: column;
-  width: 327px;
-  height: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .title {
@@ -581,12 +596,13 @@ div > ul.f {
   width: 801px;
   height: 56px;
   left: 113px;
-  margin-left: 488px;
+  margin-left: 668px;
+  padding: 10px;
 }
 
 .form-container > p {
   position: absolute;
-  width: 327px;
+  width: 627px;
   height: 62px;
   left: 24px;
   top: 129px;
@@ -597,14 +613,16 @@ div > ul.f {
   padding-left: 20px;
   padding-right: 20px;
   margin-left: 540px;
+
 }
 
 form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 285px;
+  margin-top: 175px;
   margin-left: 596px;
+  width: 627px;
 }
 
 input,
@@ -625,8 +643,8 @@ textarea {
   top: 550px;
   border-radius: 8px;
   width: 140px;
-  margin-left: 26px;
-  margin-top: 153px;
+  margin-left: 276px;
+  margin-top: 43px;
 }
 
 .btn2:hover {
