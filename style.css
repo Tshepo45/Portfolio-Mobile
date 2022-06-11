@@ -16,7 +16,7 @@
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  opacity: .88;
+  opacity: 0.88;
 }
 
 #links {
@@ -27,12 +27,16 @@
   display: inline-block;
 }
 
+#about-container > a {
+  text-decoration: none;
+}
+
 #links nav ul li a {
   padding: 10px;
   text-decoration: none;
   color: #344563;
   border-bottom: 0 solid white;
-  transition: border 150ms;padding: 150ms;
+  transition: border 150ms;
 }
 
 #links nav ul li a:hover {
@@ -41,13 +45,14 @@
 }
 
 @media only screen and (max-width: 400px) {
-  #links {
-  margin: auto;
-} 
-#links ul li a:hover {
-  border-bottom: 2px solid white;
-  padding-bottom: 12px;
-}
+    #links {
+    margin: auto;
+  }
+
+    #links ul li a:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 12px;
+  }
 }
 
 div > ul.r {
@@ -57,7 +62,7 @@ div > ul.r {
   left: 693.25px;
   top: 261.57px;
   background: #6070ff;
-  transform: matrix(0.98,-0.21,-0.21,-0.98,0,0);
+  transform: matrix(0.98, -0.21, -0.21, -0.98, 0, 0);
 }
 
 div > ul.a {
@@ -158,7 +163,6 @@ div > ul.f {
   background-color: #e5e5e5;
   width: 80%;
   margin: 70px auto 70px auto;
-  padding: 0;
 }
 
 .container1 {
@@ -426,10 +430,6 @@ div > ul.f {
   margin: 12px 0;
 }
 
-#about-container > a {
-  text-decoration: none;
-}
-
 .btn1 {
   font: normal normal 400 17px 'Poppins', sans-serif;
   width: 180px;
@@ -544,19 +544,6 @@ div > ul.f {
   height: 102px;
   top: 3000px;
   justify-content: center;
-}
-
-.about-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  box-sizing: border-box;
-}
-
-#about-container {
-  width: 80%;
-  margin: 70px auto 70px auto;
-  padding: 0;
 }
 
 /* styling for contact form */
