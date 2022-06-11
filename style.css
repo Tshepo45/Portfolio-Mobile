@@ -9,11 +9,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
-html,body {
+html,
+body {
   width: 100%;
   height: 100%;
-  margin: 0px;
-  padding: 0px;
   overflow-x: hidden; 
 }
 
@@ -407,7 +406,6 @@ div > ul.f {
   background-position: top right;
   width: 80%;
   margin: 70px auto 70px auto;
-  padding: 0;
 }
 
 .about-content {
@@ -613,7 +611,6 @@ div > ul.f {
   padding-left: 20px;
   padding-right: 20px;
   margin-left: 540px;
-
 }
 
 form {
